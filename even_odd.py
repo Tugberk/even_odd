@@ -16,5 +16,13 @@ for i in range(0, listLength+1):
     else:
         oddList.append(x)
 
-print "EvenList", evenList
+'''print "EvenList", evenList
 print "OddList",  oddList
+'''
+
+print "Even List"
+for elm in evenList:
+    print elm
+print "Odd List"
+for elm in oddList:
+    print elm
