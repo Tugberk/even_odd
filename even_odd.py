@@ -5,15 +5,6 @@ myList = [1,2,3,4]
 def findsubsets(S,m):
     return set(itertools.combinations(S, m))
 
-x = findsubsets(myList, 3)
-#print x
-
-
-#burada sunlari ayiralim
-#bir kere verdigimiz setin uzunluguna gore cift ve tek sayilari ayarlarsak
-#o zaman bu fonksiyona bunlarin hepsini for loop ile verebiliriz
-
-
 evenList = []
 oddList = []
 
